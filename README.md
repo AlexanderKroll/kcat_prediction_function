@@ -1,5 +1,5 @@
 # Description
-This repository contains an easy-to-use Python function for the kcat prediction model from our paper "Enzymatic turnover numbers: A general prediction model allows full kinetic parameterization of genome-scale metabolic models". 
+This repository contains an easy-to-use Python function for the kcat prediction model from our paper "Turnover number predictions for kinetically uncharacterized enzymes using machine and deep learning". 
 
 ## Predicting kcat values for enzyme-reaction pairs
 The kcat prediction model was only trained with natural enzyme-reaction pairs with wild-type enzymes. Hence, the model will not be good at predicting kcat for mutants
