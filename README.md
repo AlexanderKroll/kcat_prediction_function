@@ -6,7 +6,7 @@ The kcat prediction model was only trained with natural enzyme-reaction pairs wi
 or for non-natural reactions of enzymes. 
 
 ## Downloading data folder
-Before you can run the kcat prediction function, you need to download and unzip a [data folder](https://drive.google.com/file/d/1rH9mQ4dL1SPeD_ttAVxrKrUl-7z4FMEK/view?usp=sharing). Afterwards, this repository should have the following strcuture:
+Before you can run the kcat prediction function, you need to download and unzip a [data folder](https://doi.org/10.5281/zenodo.8038678). Afterwards, this repository should have the following strcuture:
 
     ├── code                   
     ├── data                    
