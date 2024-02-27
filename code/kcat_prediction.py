@@ -71,7 +71,7 @@ def merging_reaction_and_enzyme_df(df_reaction, df_enzyme, df_kcat):
 		diff_fp = list(df_reaction["difference_fp"].loc[df_reaction["substrates"] == df_kcat["substrates"][ind]].loc[df_reaction["products"] == df_kcat["products"][ind]])[0]
 		esm1b_rep = list(df_enzyme["enzyme rep"].loc[df_enzyme["amino acid sequence"] == df_kcat["enzyme"][ind]])[0]
 
-		if isinstance(drfp, str) and isinstance(esm1b_rep, str):
+		if isinstance(diff_fp, str) and isinstance(esm1b_rep, str):
 			df_kcat["complete"][ind] = False
 		else:
 			df_kcat["difference_fp"][ind] = diff_fp
